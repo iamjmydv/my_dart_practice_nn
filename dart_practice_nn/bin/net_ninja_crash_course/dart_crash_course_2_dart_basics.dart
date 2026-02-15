@@ -8,7 +8,7 @@
 void main() {
   // ------------- C O M P I L E - T I M E ----- ( C O N S T - U S A G E ) -----
   //Const is used since before RUNTIME/RUN_THE_APP the value is determined.
-  const age = 25;
+  const int age = 25;
   print(age);
 
   // `const` is used because the value is known at compile time.
