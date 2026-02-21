@@ -595,4 +595,5 @@ class Collection<T> {
 //  - Dart's type inference often makes the <T> explicit annotation optional
 //  - Generics are one of the most important features for writing reusable code
 //
+//
 // =============================================================================
