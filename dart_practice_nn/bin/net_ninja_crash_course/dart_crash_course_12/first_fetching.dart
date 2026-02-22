@@ -16,7 +16,7 @@ Future<Post> fetchPost() async {
     throw Exception('Failed to fetch post: ${response.statusCode}');
   }
 
-  Map<String, dynamic> data = convert.jsonDecode(response.body) as Map<String, dynamic>;
+  Map<String, dynamic> data = convert.jsonDecode(response.body);
 
   return Post(data["title"], data["userId"]);
 }
