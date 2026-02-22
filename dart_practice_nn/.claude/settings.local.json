@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dart run:*)"
+      "Bash(dart run:*)",
+      "Bash(curl:*)",
+      "Bash(dart pub get:*)",
+      "Bash(echo:*)",
+      "Bash(dart:*)"
     ]
   }
 }
