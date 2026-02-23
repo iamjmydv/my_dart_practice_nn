@@ -5,7 +5,8 @@
       "Bash(curl:*)",
       "Bash(dart pub get:*)",
       "Bash(echo:*)",
-      "Bash(dart:*)"
+      "Bash(dart:*)",
+      "Bash(code --list-extensions:*)"
     ]
   }
 }
